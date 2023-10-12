@@ -1,0 +1,287 @@
+@media screen and (max-width: 425px) {
+    /* navbar start ---------*/
+    body nav {
+        flex-direction: column;
+        align-items: center;
+        width: 150%;
+    }
+
+    .navbar-section {
+        display: flex;
+        align-items: center;
+    }
+
+    .nav-icon-section {
+        flex-direction: column;
+        justify-content: center;
+        width: 150%;
+        align-items: center;
+    }
+
+    .Follow-btn {
+        padding: 15px 35px;
+        margin-top: 20px;
+
+    }
+
+    /* navbar end ---------*/
+
+    .nav-icon-section a {
+        padding-top: 20px;
+    }
+
+    body section {
+        flex-direction: column;
+        width: 150%;
+    }
+
+    .section-text {
+        margin-top: 50px;
+        width: 1000px;
+        text-align: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+
+/*---------- online games start -----*/
+.section-text h3 {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 0px;
+    align-items: center;
+}
+
+.section-text h1 {
+    font-size: 4rem;
+    font-weight: 800;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.section-text button {
+    flex-direction: column;
+    align-items: center;
+}
+
+section .section-text {
+    width: 120%;
+    align-items: center;
+}
+
+
+.header-section {
+    width: 550px;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 10px;
+    text-align: center;
+    margin-top: 50px;
+    width: 150%;
+
+}
+
+.p-tag {
+    width: 500px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+    margin:  10 30px;
+    text-align: center;
+    width: 150%;
+    padding: 0 50px;
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0 auto;
+    width: 150%;
+    margin: 40px 40px;
+}
+
+.games-img {
+    width: 90%;
+    
+}
+
+.grid-container p {
+    font-size: 1.7rem;
+    font-weight: 500;
+    padding: 10px 50px;
+    margin-top: 0px;
+    
+}
+/*---------- online games end -----*/
+/* -------------------- card section start ----------- */
+
+.card-section {
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.card-text {
+    width: 90%;
+    text-align: center;
+   
+}
+.card-text h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    width: 120%;
+    margin: 50px;
+    margin-bottom: 5px;
+}
+.card-text p {
+    width: 120%;
+    font-size: 1.4rem;
+    font-weight: 400;
+    padding: 40px;
+    margin: 70px;
+    margin-top: 0px;
+   
+}
+
+.card-img{
+    width: 100%;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.card-big-img {
+    width: 120%;
+    margin-right: 100px;
+}
+.card-small-img {
+    width: 60%;
+    border-radius: 8px;
+    border: 10px solid #FFF;
+    position: relative;
+    bottom: 250px;
+}
+/* -------------------- card section end ----------- */
+
+
+/* btn section start */
+
+.btn-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-left: 100px;
+}
+
+.btn-icon{
+    display: flex;
+    align-items: center;
+    width: 180px;
+    height: 70px;
+    /* margin-left: 10px; */
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.btn-icon:hover {
+    background: #f44336;
+    color: white;
+  }
+.danger:hover {
+    background: #f44336;
+    color: white;
+  }
+.btn-icon img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+.btn-icon p{
+    color: #0B0223;
+    font-size: .9rem;
+    font-size: 400;
+}
+/* btn section end */
+
+/* footer-section-start */
+
+footer{
+    width: 200%;
+}
+.footer-icon{
+    font-size: 2rem;
+    font-weight: 600;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* align-items: center; */
+    /* justify-items: center; */
+    margin: 10px 50px;
+   
+}
+.sponsor-icon{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    justify-content: center;
+    margin: 10px 80px;
+    margin-right: 50px;
+}
+.Policy-section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-size: 2rem;
+    font-weight: 500;
+    justify-items: start;
+    margin-top: 20px;
+    gap: 20px;
+    color: rgba(255, 255, 255, 0.60);
+    margin-left: 30px;
+    margin-bottom: 60px;
+}
+
+.Copyright{
+    font-size: 1.9rem;
+    font-weight: 500;
+    color: #bab7b7;
+    text-align: center;
+    margin:  0 40px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+
+/* footer-section-end */
+}
+
+
+
+
+
+/* Tablet-responsive */
+@media screen and (min-width: 577px)and(max-width: 767px) {
+    /* navbar start ---------*/
+    body nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar-section {
+        display: flex;
+        width: 500%;
+        align-items: center;
+    }
+
+    .nav-icon-section {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Follow-btn {
+        padding: 15px 35px;
+        margin-top: 20px;
+
+    }
+    /* navbar end ---------*/
+}
